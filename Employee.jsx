@@ -10,9 +10,9 @@ const Employee = ({ firstName, lastName, employeeAge }) => {
 */
 
 const Employee = (props) => {
-    const { firstName, lastName, employeeAge } = props;
+    const { firstName, lastName, employeeAge, employeeLocation } = props;
     return (
-        <h2> Employee name → {firstName} {lastName}, Age → {employeeAge} </h2>
+        <h2> Employee name → {firstName} {lastName}, Age → {employeeAge}, Location → {employeeLocation} </h2>
     )
 }
 
